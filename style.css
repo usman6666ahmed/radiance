@@ -20,6 +20,7 @@ html {
 :root {
 	--primary: #41c365;
 	--primary-light: #d5eddf;
+	--primary-dark: #003818;
 }
 
 .banner {
@@ -69,6 +70,11 @@ html {
 
 .center {
 	text-align: center;
+}
+
+.center-div {
+	display: flex;
+	justify-content: center;
 }
 
 .customer-care {
@@ -260,4 +266,73 @@ html {
 	margin-top: 20%;
 	margin-right: 5%;
 	width: 100%;
+}
+
+.contact-us {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 2% 10%;
+
+	background-color: var(--primary-dark);
+}
+
+.contact-us-heading {
+	margin-bottom: 10%;
+	font-weight: 500;
+}
+
+.contact-us-subheading {
+	font-weight: 400;
+}
+.contact-us-form {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	padding: 5% 10%;
+}
+
+.contact-us-form-label {
+	color: grey;
+}
+
+.contact-us-button {
+	background-color: black;
+	padding: 4%;
+	width: 30%;
+	border: none;
+	color: white;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+
+.contact-us-input {
+	height: 30px;
+	font-size: large;
+	padding: 3%;
+	background-color: white;
+	border: none;
+	border-bottom: 1px solid black;
+	margin: 2% 0;
+}
+
+.download-button {
+	background-color: white;
+	color: var(--primary);
+	padding: 2% 4%;
+	width: 40%;
+	border: none;
+	font-size: 1.2rem;
+	cursor: pointer;
+	margin-top: 10%;
+}
+
+.get-started-button {
+	background-color: black;
+	padding: 2% 4%;
+	width: 30%;
+	border: none;
+	color: white;
+	font-size: 1.2rem;
+	cursor: pointer;
+	margin-top: 5%;
 }
