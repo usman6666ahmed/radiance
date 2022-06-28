@@ -167,3 +167,64 @@ html {
 	color: var(--primary-light);
 	background-color: var(--primary);
 }
+
+.testimonial {
+	margin: 3% 0;
+}
+.testimonial-heading {
+	font-size: 3.8rem;
+	margin-bottom: 2%;
+}
+
+.testimonial-para-container {
+	display: flex;
+	justify-content: center;
+}
+
+.testimonial-para {
+	line-height: 2rem;
+	text-align: center;
+	width: 50%;
+}
+.testimonial-card-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 3%;
+	padding: 0 10%;
+	margin-top: 3%;
+}
+
+.testimonial-card {
+	background-color: var(--primary);
+	border-radius: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2% 10%;
+}
+
+.testimonial-card-heading {
+	text-transform: uppercase;
+	color: white;
+	font-weight: 400;
+	font-size: 2rem;
+	margin: 2%;
+}
+
+.testimonial-card-para {
+	line-height: 2rem;
+	font-weight: 300;
+	font-size: 1.3rem;
+	text-align: center;
+	color: white;
+	margin-bottom: 15%;
+}
+
+.circle {
+	background-color: #dcdcdc;
+	color: #dcdcdc;
+	border-radius: 100px;
+	height: 70px;
+	width: 70px;
+	margin: 3% 0;
+}
