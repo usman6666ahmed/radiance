@@ -92,6 +92,33 @@
 	.download-button {
 		margin-bottom: 5%;
 	}
+
+	.services {
+		grid-template-columns: 1fr;
+		padding: 0;
+	}
+
+	.faq-heading {
+		margin-top: 5%;
+	}
+	.faq-item-container{
+		grid-template-columns: 1fr;
+	}
+
+	.testimonial-heading {
+		font-size: 3rem;
+	}
+
+	.intro-card {
+		grid-template-columns: 1fr;
+	}
+
+	.explaination {
+		width: 90%;
+	}
+
+
+
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 481px) {
@@ -101,6 +128,18 @@
 		background-color: var(--primary-light);
 		padding: 10%;
 	}
+
+	.faq{
+		margin-top: 5%;
+		padding-top: 5%;
+	}
+	.intro {
+		margin-bottom: 10%;
+	}
+
+
+
+
 
 	.customer-care {
 		display: none;
