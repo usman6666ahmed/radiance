@@ -17,9 +17,44 @@
 	.customer-care {
 		display: none;
 	}
+
+	.services {
+		grid-template-columns: 1fr;
+		padding: 0%;
+	}
+
+	.intro {
+		padding: 0% 2%;
+	}
+
+	.intro-card {
+		grid-template-columns: 1fr;
+	}
+
+	.intro-image {
+		margin-bottom: 0;
+	}
+
 	.faq-item-container {
 		grid-template-columns: 1fr;
 	}
+
+	.testimonial-heading {
+		font-size: 1.8rem;
+	}
+	.testimonial-para {
+		width: 80%;
+	}
+	.testimonial-para-container {
+		margin-bottom: 15%;
+	}
+	.faq {
+		margin-top: 30%;
+	}
+	.faq-heading {
+		text-align: center;
+	}
+
 	.testimonial-card-container {
 		display: none;
 		display: grid;
