@@ -1,0 +1,36 @@
+@import url('./variables.css');
+
+@media only screen and (max-width: 500px) {
+	.banner {
+		grid-template-columns: 1fr;
+		background-image: none;
+		background-color: var(--primary-light);
+		padding: 10%;
+	}
+	.get-started-button {
+		width: 70%;
+		margin-bottom: 5%;
+	}
+	.explaination {
+		width: 100%;
+	}
+	.customer-care {
+		display: none;
+	}
+	.faq-item-container {
+		grid-template-columns: 1fr;
+	}
+	.testimonial-card-container {
+		display: none;
+		display: grid;
+		grid-template-columns: 1fr;
+		justify-items: center;
+	}
+
+	.contact-us {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media only screen and (max-width: 700px) and (min-width: 500px) {
+}

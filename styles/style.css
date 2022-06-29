@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
 /* Normalising CSS */
+@import url('./variables.css');
 
 *,
 *::after,
@@ -17,14 +18,8 @@ html {
 }
 
 /* Normalising CSS --END-- */
-:root {
-	--primary: #41c365;
-	--primary-light: #d5eddf;
-	--primary-dark: #003818;
-}
 
 .banner {
-	height: 100%;
 	background-image: url('./assets/images/banner.png');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -82,7 +77,7 @@ html {
 	justify-content: center;
 }
 
-.exlpaination {
+.explaination {
 	width: 50%;
 	/* word-wrap: break-word; */
 	font-size: 1.2rem;
@@ -307,6 +302,14 @@ html {
 
 .contact-us-input {
 	height: 30px;
+	font-size: large;
+	padding: 3%;
+	background-color: white;
+	border: none;
+	border-bottom: 1px solid black;
+	margin: 2% 0;
+}
+.contact-us-textarea {
 	font-size: large;
 	padding: 3%;
 	background-color: white;
