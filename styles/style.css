@@ -19,16 +19,7 @@ html {
 
 /* Normalising CSS --END-- */
 
-.banner {
-	background-image: url('../assets/images/banner.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-
-	padding: 1% 1% 1% 20%;
-}
+/* Utils */
 
 .heading-sm {
 	font-size: 1.3rem;
@@ -70,6 +61,18 @@ html {
 .center-div {
 	display: flex;
 	justify-content: center;
+}
+/* Utils ---END--- */
+
+.banner {
+	background-image: url('../assets/images/banner.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+
+	padding: 1% 1% 1% 20%;
 }
 
 .customer-care {

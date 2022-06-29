@@ -1,11 +1,14 @@
 @import url('./variables.css');
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
 	.banner {
 		grid-template-columns: 1fr;
 		background-image: none;
 		background-color: var(--primary-light);
 		padding: 10%;
+	}
+	.heading-xl {
+		font-size: 3rem;
 	}
 	.get-started-button {
 		width: 70%;
@@ -65,7 +68,35 @@
 	.contact-us {
 		grid-template-columns: 1fr;
 	}
+	.download-button {
+		margin-bottom: 5%;
+	}
 }
 
-@media only screen and (max-width: 700px) and (min-width: 500px) {
+@media only screen and (max-width: 1200px) and (min-width: 1025px) {
+	.banner {
+		background-image: none;
+		background-color: var(--primary-light);
+	}
+	.explaination {
+		width: 100%;
+	}
+	.get-started-button {
+		width: 80%;
+	}
+}
+@media only screen and (max-width: 1024px) and (min-width: 481px) {
+	.banner {
+		grid-template-columns: 1fr;
+		background-image: none;
+		background-color: var(--primary-light);
+		padding: 10%;
+	}
+
+	.customer-care {
+		display: none;
+	}
+	.testimonial-card-container {
+		grid-template-columns: 1fr;
+	}
 }
