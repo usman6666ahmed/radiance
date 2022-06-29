@@ -111,9 +111,10 @@ html {
 }
 
 .service-paragraph {
-	width: 60%;
+	width: 80%;
 	text-align: center;
-	line-height: 1.5rem;
+	font-weight: 300;
+	line-height: 1.8rem;
 }
 
 .service-heading {
@@ -170,7 +171,7 @@ html {
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 1.2rem;
-	margin-top: 5%;
+	margin-top: 2%;
 	cursor: pointer;
 }
 
