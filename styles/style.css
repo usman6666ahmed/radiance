@@ -26,7 +26,7 @@ html {
 }
 
 .heading-xl {
-	font-size: 4.4rem;
+	font-size: 3rem;
 }
 
 .heading-lg {
@@ -74,6 +74,12 @@ html {
 
 	padding: 1% 1% 1% 20%;
 }
+.banner-subheading {
+	font-weight: 500;
+}
+.logo {
+	margin-left: 4%;
+}
 
 .customer-care {
 	display: flex;
@@ -81,10 +87,10 @@ html {
 }
 
 .explaination {
-	width: 50%;
-	/* word-wrap: break-word; */
+	width: 100%;
 	font-size: 1.2rem;
 	line-height: 2rem;
+	font-weight: 300;
 }
 
 .phone {
@@ -140,7 +146,7 @@ html {
 
 .intro-card-content {
 	padding: 2%;
-	margin: 5% 0;
+	margin: 2% 0;
 }
 
 .intro-card-heading {
@@ -152,7 +158,8 @@ html {
 .intro-card-para {
 	font-size: 1.2rem;
 	line-height: 2rem;
-	font-weight: 100;
+	font-weight: 300;
+	width: 90%;
 }
 
 .intro-card-button {
@@ -193,8 +200,8 @@ html {
 .testimonial-card-container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	gap: 3%;
-	padding: 0 10%;
+	gap: 1%;
+	padding: 0 15%;
 	margin-top: 3%;
 }
 
@@ -204,7 +211,9 @@ html {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 2% 10%;
+	padding: 2% 5%;
+	text-align: center;
+	font-size: 2rem;
 }
 
 .testimonial-card-heading {
@@ -216,26 +225,27 @@ html {
 }
 
 .testimonial-card-para {
-	line-height: 2rem;
+	line-height: 1.5rem;
 	font-weight: 300;
-	font-size: 1.3rem;
 	text-align: center;
 	color: white;
 	margin-bottom: 15%;
+	font-size: 1rem;
+	font-weight: 400;
 }
 
 .circle {
 	background-color: #dcdcdc;
 	color: #dcdcdc;
 	border-radius: 100px;
-	height: 70px;
-	width: 70px;
+	height: 50px;
+	width: 50px;
 	margin: 3% 0;
 }
 
 .faq {
 	margin-top: 10%;
-	padding: 0 10%;
+	padding: 0 5%;
 }
 .faq-heading {
 	text-align: right;
@@ -275,18 +285,21 @@ html {
 }
 
 .contact-us-heading {
-	margin-bottom: 10%;
-	font-weight: 500;
+	font-size: 2.5rem;
+	font-weight: 800;
+	margin-bottom: 25%;
 }
 
 .contact-us-subheading {
-	font-weight: 400;
+	font-size: 2.3rem;
+	font-weight: 500;
+	width: 50%;
 }
 .contact-us-form {
 	display: flex;
 	flex-direction: column;
 	background-color: white;
-	padding: 5% 10%;
+	padding: 5% 5%;
 }
 
 .contact-us-form-label {
@@ -295,11 +308,11 @@ html {
 
 .contact-us-button {
 	background-color: black;
-	padding: 4%;
-	width: 30%;
+	padding: 2% 5%;
+	width: 40%;
 	border: none;
 	color: white;
-	font-size: 1.2rem;
+	font-size: 0.8rem;
 	cursor: pointer;
 }
 
@@ -329,13 +342,13 @@ html {
 	border: none;
 	font-size: 1.2rem;
 	cursor: pointer;
-	margin-top: 10%;
+	margin-top: 15%;
 }
 
 .get-started-button {
 	background-color: black;
-	padding: 2% 4%;
-	width: 30%;
+	padding: 3% 4%;
+	width: 50%;
 	border: none;
 	color: white;
 	font-size: 1.2rem;
