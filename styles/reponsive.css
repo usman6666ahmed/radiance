@@ -85,6 +85,15 @@
 		width: 80%;
 	}
 }
+@media only screen and (max-width: 780px) and (min-width: 481px) {
+	.contact-us {
+		grid-template-columns: 1fr;
+	}
+	.download-button {
+		margin-bottom: 5%;
+	}
+}
+
 @media only screen and (max-width: 1024px) and (min-width: 481px) {
 	.banner {
 		grid-template-columns: 1fr;
